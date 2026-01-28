@@ -1,3 +1,5 @@
+import InteractiveWorldMap from "@/components/InteractiveWorldMap";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-orange-50 to-blue-50">
@@ -44,15 +46,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl p-12 shadow-2xl">
-            <div className="aspect-video bg-white/80 rounded-2xl flex items-center justify-center border-4 border-dashed border-gray-300">
-              <div className="text-center">
-                <div className="text-8xl mb-4">🌏</div>
-                <p className="text-2xl font-semibold text-gray-700">Interactive World Map</p>
-                <p className="text-gray-600 mt-2">Coming Soon: Click & Explore</p>
-              </div>
-            </div>
-          </div>
+          <InteractiveWorldMap />
         </div>
       </section>
 
